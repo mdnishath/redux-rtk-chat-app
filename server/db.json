@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Sumit Saha",
+      "id": 1
+    },
+    {
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Akash Ahmed",
+      "id": 2
+    },
+    {
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Saad Hasan",
+      "id": 3
+    },
+    {
+      "email": "nishatbd3388@gmail.com",
+      "password": "$2a$10$M.Fz2EHaUsFzQMoclNHvSe05WuOYUWbgQV8S62pBSUCFnj2jUQaUu",
+      "name": "Nishath",
+      "id": 4
+    },
+    {
+      "email": "wpprodeveloper@gmail.com",
+      "password": "$2a$10$kvle/h4PCKNd2yuCPADJc.iDvmoJb7UzmnrPnPTK3KfAjCTkWXL5S",
+      "name": "Developer Nishath",
+      "id": 5
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": "nishatbd3388@gmail.com-wpprodeveloper@gmail.com",
+      "users": [
+        {
+          "email": "nishatbd3388@gmail.com",
+          "name": "Nishath",
+          "id": 1
+        },
+        {
+          "email": "wpprodeveloper@gmail.com",
+          "name": "Developer Nishath",
+          "id": 2
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "nishatbd3388@gmail.com",
+        "name": "Nishath",
+        "id": 1
+      },
+      "receiver": {
+        "email": "wpprodeveloper@gmail.com",
+        "name": "Developer Nishath",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "wpprodeveloper@gmail.com",
+        "name": "Nishath",
+        "id": 1
+      },
+      "receiver": {
+        "email": "nishatbd3388@gmail.com",
+        "name": "Nishath",
+        "id": 2
+      },
+      "message": "How Are You?",
+      "timestamp": 1661976143559
+    }
+  ]
+}
